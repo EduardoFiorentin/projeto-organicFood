@@ -1,0 +1,565 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;400&display=swap');
+
+:root {
+    --cor_preto_back: #2a304d;
+    --cor_amarelo_back: #ffd900;
+    --cor_footer: #333333;
+    --cor_letra_cinza: #cbcfe6;
+
+    --fonte_titulos: 'Oswald', sans-serif;   
+    --fonte_textos_arial:  Arial, Helvetica, sans-serif; 
+}
+
+.back__gray {
+    background-color: var(--cor_preto_back);
+}
+header {
+    align-items: center;
+    background-color: var(--cor_preto_back);
+    color: var(--cor_amarelo_back);
+    display: flex;
+    font-family: var(--fonte_titulos);
+    font-size: 3em;
+    justify-content: space-between;
+    margin: auto;
+    margin-bottom: 1px;
+    max-width: 1080px;
+    padding: 1% 0;
+}
+.header__menu:hover {
+    cursor: pointer;
+}
+
+
+/* Section 1 - Organic garden */
+.section1 {
+    display: flex;
+    margin: auto;
+    max-width: 1080px;
+    padding-top: 5%;
+}
+.section1__imagem {
+    background-image: url('../imagens/sec1-organic\ garden.jpg');
+    background-position: bottom;
+    background-repeat: no-repeat;
+    height: 100vh;
+    max-height: 600px;
+    width: 50vw;
+}
+.section1__divTexto {
+    background-color: var(--cor_amarelo_back);
+    max-height: 600px;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 10%;
+    width: 50vw;
+}
+.section1__titulo {
+    color: var(--cor_preto_back);
+    font-family: var(--fonte_titulos);
+    font-weight: 400;
+    font-size: 3.5em;
+    padding-bottom: 7%;
+}
+.section1__texto {
+    font-family: var(--fonte_textos_arial);
+    font-size: 1.3em;
+    font-style: italic;
+    line-height: 1.2em;
+    padding-bottom: 7%;
+}
+.section1__botao {
+    background-color: var(--cor_preto_back);
+    border: 0;
+    color: white;
+    padding: 2% 6%;
+    text-transform: uppercase;
+}
+
+
+/* Section 2 - Vantagens */
+.vantagens {
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+    max-width: 1080px;
+}
+.vantagem {
+    width: 23vw;
+}
+.vantagem__imagem {
+    display: block;
+    margin: auto;
+    padding: 50% 0 0 0;
+}
+.vantagem__titulo {
+    color: var(--cor_letra_cinza);
+    font-family: var(--fonte_titulos);
+    font-size: 3em;
+    padding: 7% 0;
+    text-align: center;
+}
+.vantagem__paragrafo {
+    color: var(--cor_letra_cinza);
+    font-family: var(--fonte_textos_arial);
+    font-size: 1.2em;
+    line-height: 1.5em;
+    padding-bottom: 40%;
+    text-align: center;
+}
+
+
+
+.back__yellow {
+    background-color: var(--cor_amarelo_back);
+    padding-bottom: 10%;
+    padding-top: 10%;
+}
+
+
+
+/* Section 3 - 3Rs */
+.section3 {
+    margin: auto;
+    max-width: 1080px;
+}
+.sec3__3Rs {
+    display: flex;
+}
+.section3__imagem1 {
+    background-image: url('../imagens/sec3-frutas\ amarelas.jpg');
+    background-repeat: no-repeat;
+    background-position: bottom;
+    height: 100vh;
+    max-height: 600px;
+    width: 50%;
+}
+.section3__texto1 {
+    background-color: white;
+    max-height: 600px;
+    padding-top: 10%;
+    width: 50%;
+}
+.section3__texto1__titulo {
+    font-family: var(--fonte_titulos);
+    font-size: 3em;
+    text-align: center;
+    
+}
+.section3__texto1__underline {
+    background-color: var(--cor_amarelo_back);
+    height: 8px;
+    margin: auto;
+    margin-left: 10%;
+    margin-right: 5%;
+    margin-top: 5%;
+}
+.section3__texto1__texto {
+    font-family: var(--fonte_textos_arial);
+    font-size: 1.3em;
+    font-weight: lighter;
+    line-height: 1.3em;
+    margin-bottom: 5%;
+    padding: 30px 5% 0 5%;
+}
+.section3__texto1__link {
+    color: black;
+    font-family: var(--fonte_textos_arial);
+    font-size: 1.3em;
+    padding-left: 5%;
+    text-decoration: none;
+}
+
+.sec3__listFlex {
+    display: flex;
+}
+.sec3__list {
+    display: flex;
+    width: 50%;
+}
+.section3__imagem2 {
+    background-image: url('../imagens/sec3-img2.jpg');
+    background-position: center;
+    height: 70vh;
+    max-height: 500px;
+    width: 50%;
+}
+.section3__texto2 {
+    align-items: center;
+    background-color: var(--cor_footer);
+    display: flex;
+    max-height: 500px;
+    width: 50%;
+}
+.section3__texto2 ol {
+    color: white;
+    font-family: var(--fonte_textos_arial);
+    font-size: 2em;
+    font-weight: bolder;
+    line-height: 1.5em;
+    list-style: decimal;
+    list-style-position: inside;
+    margin-left: 8%;
+    text-align: left;
+}
+.section3__imagem3 {
+    background-image: url('../imagens/sec3-img3.jpg');
+    background-position: bottom;
+    height: 70vh;
+    max-height: 500px;
+    width: 50%;
+}
+
+
+
+/* Section 4 */
+.section4 {
+    display: flex;
+    height: 100vh;
+    margin: auto;
+    margin-top: 10%;
+    max-height: 600px;
+    max-width: 1080px;
+}
+.section4__texto1 {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 5%;
+    width: 50%;
+}
+.section4__texto1__titulo {
+    color: black;
+    font-family: var(--fonte_titulos);
+    font-size: 3.5em;
+    padding-bottom: 5%;
+}
+.section4__texto1__lista {
+    color: black;
+    font-family: var(--fonte_textos_arial);
+    font-size: 1.5em;
+    font-style: italic;
+}
+.section4__texto2 {
+    background-color: var(--cor_footer);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;    
+    padding: 0 5%;
+    width: 50%;
+    
+}
+.section4__texto2__titulo {
+    color: var(--cor_letra_cinza);
+    font-family: var(--fonte_titulos);
+    font-size: 3.5em;
+    padding-bottom: 5%;
+}
+.section4__texto2__texto {
+    color: white;
+    font-family: var(--fonte_textos_arial);
+    font-size: 1.5em;
+    font-style: italic;
+}
+
+
+
+/* Section 5 - our mission */
+.section5 {
+    margin: auto;
+    margin-right: 15%;
+    max-height: 600px;
+    max-width: 1080px;
+    text-align: right;
+
+}
+.section5__mission {
+    color: white;
+    font-family: var(--fonte_textos_arial);
+    font-size: 2em;
+    padding-bottom: 2%;
+    padding-top: 15%;
+    text-transform: uppercase;
+}
+.section5__titulo {
+    color: var(--cor_letra_cinza);
+    font-family: var(--fonte_titulos);
+    font-size: 3.5em;
+}
+.section5__texto {
+    color: white;
+    font-family:  var(--fonte_textos_arial);
+    font-size: 1.3em;
+    line-height: 2;
+    padding-bottom: 15%;
+    padding-left: 10%;
+    padding-top: 5%;
+}
+
+
+
+/* Section 6 - our mission */
+.section6 {
+    display: flex;
+    margin: auto;
+}
+.section6__imagem1 {
+    background-image: url('../imagens/sec6-img1.jpg');
+    background-size: cover;
+    height: 500px;
+    width: 50%;
+}
+.section6__imagem2 {
+    background-image: url('../imagens/sec6-img2.jpg');
+    background-size: cover;
+    height: 500px;
+    width: 50%;
+}
+.section6 {
+    display: flex;
+    justify-content: center;
+}
+.section6__texto {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 5%;
+}
+.section6__texto__titulo {
+    color: var(--cor_preto_back);
+    font-family: var(--fonte_titulos);
+    font-size: 3em;
+    font-weight: bold;
+    padding-bottom: 5%;
+}
+.section6__texto__paragrafo {
+    font-family:  var(--fonte_textos_arial);
+    font-size: 1.3em;
+    line-height: 2;
+}
+
+
+
+/* Section 7 - energy */
+.section7 {
+    margin: auto;
+    width: 800px;
+}
+.section7__titulo {
+    color: var(--cor_preto_back);
+    font-family: var(--fonte_titulos);
+    font-size: 4em;
+}
+.section7__underline {
+    background-color: #2a304d;
+    height: 5px;
+    margin-top: 2%;
+    width: 100%;
+}
+.section7__texto {
+    color: var(--cor_preto_back);
+    font-family: var(--fonte_textos_arial);
+    font-size: 1.5em;
+    line-height: 1.5;
+    padding-top: 5%;
+}
+.section7__link {
+    color: var(--cor_preto_back);
+    font-family: var(--fonte_textos_arial);
+    font-size: 1.5em;
+    line-height: 1.5;
+    text-decoration: none;
+}
+
+
+
+/* Section 8 - mensagem */
+.section8 {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 10%;
+    padding-top: 5%;
+}
+.section8__nome, .section8__email, .section8__mensagem{
+    color: white;
+    font-family: var(--fonte_textos_arial);
+    font-size: 1.2em;
+    margin-bottom: 1%;
+    padding: 10px;
+    width: 40%;
+}
+.section8__nome:hover, .section8__email:hover, .section8__mensagem:hover {
+    background-color: var(--cor_preto_back);
+    border: none;
+}
+.section8__botao {
+    background-color: var(--cor_amarelo_back);
+    border: none;
+    font-size: 1.3em;
+    margin-top: 1%;
+    padding: 10px;
+    text-transform: uppercase;
+    width: 10%;
+}
+
+
+
+/* rodapé */
+.rodape {
+    background-color: var(--cor_footer);
+    padding: 3% 0;
+}
+.rodape__texto {
+    color: white;
+    font-family: var(--fonte_textos_arial);
+    font-size: 1.5em;
+    text-align: center;
+}
+.rodape__texto__link {
+    color: var(--cor_letra_cinza);
+    text-decoration: none;
+}
+
+
+
+@media (max-width: 820px) {
+
+    * {
+        text-align: justify;
+    }
+   /* HEADER */
+    header {
+        justify-content: space-around;
+    }
+
+    /* SECTION 1 - Organic garden */
+    .section1 {
+        flex-direction: column;
+    }
+    .section1__imagem, .section1__divTexto {
+        margin: auto;
+        padding-bottom: 10px;
+        padding-right: 0%;
+        width: 95vw;
+    }
+    .section1__texto {
+        padding-right: 5%;
+    }
+    
+    /* SECTION 2 - Vantagens */
+    .vantagens {
+        flex-direction: column;
+    }
+    .vantagem {
+        margin: auto;
+        width: 90%;
+    }
+    .vantagem__imagem {
+        padding-top: 5%;
+    }
+    .vantagem__paragrafo {
+        padding-bottom: 5%;
+    }
+
+    /* SECTION 3 - 3Rs */
+    .sec3__3Rs {
+        flex-direction: column;
+    }
+    .section3__imagem1, .section3__texto1 {
+        width: 100%;
+    }
+    .sec3__listFlex, .sec3__list {
+        flex-direction: column;
+        width: 100%;
+    }
+    .section3__imagem2, .section3__texto2, .section3__imagem3 {
+        width: 100%;
+    }
+    .section3__texto1{
+        padding-bottom: 5%;
+    }
+    .section3__texto2 {
+        padding: 5% 0;
+    }
+
+    /* SECTION 4 - green restaurant */
+    .section4 {
+        flex-direction: column;
+        height: auto;
+        max-height: none;
+    }
+    .section4__texto1, .section4__texto2 {
+        padding: 0;
+        width: 100%;
+    }
+    .section4__texto1__titulo, .section4__texto1__lista, .section4__texto2__titulo, .section4__texto2__lista, .section4__texto2__texto {
+        height: auto;
+        padding: 5%;
+        text-align: center;
+    }
+
+    /* SECTION 5 - Ways to go green */
+    .section5 {
+        margin-left: 5%;
+        margin-right: 10%
+    }
+
+    /* SECTION 6 - Reduce waste */
+    .section6 {
+        flex-direction: column;
+    }
+    .section6__imagem1, .section6__imagem2, .section6__texto {
+        background-repeat: no-repeat;
+        width: 100%;
+    }
+    .section6__imagem1 {
+        order: 0;
+    }
+    .section6__imagem2 {
+        height: 426px;
+        order: 2;
+    }
+    .section6__texto {
+        order: 1;
+        padding: 0;
+    }
+    .section6__texto__titulo {
+        padding-left: 2%;
+    }
+    .section6__texto__paragrafo {
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+    
+    /* SECTION 7 - Use energy efficiently*/
+    .section7 {
+        height: auto;
+        width: auto;
+    }
+    .section7__underline {
+        margin: auto;
+        margin-top: 2%;
+        width: 80vw;
+    }
+    .section7__titulo {
+        text-align: center;
+        width: auto;
+    }
+    .section7__texto {
+        padding: 0 3%;
+    }
+    .section7__link {
+        padding: 0 3%;
+    }
+
+    .section8__nome, .section8__email, .section8__mensagem{
+        width: 85%;
+    }
+    .section8__botao {
+        text-align: center;
+        width: 85%;
+    }
+
+}
